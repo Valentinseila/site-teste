@@ -1,0 +1,138 @@
+body{
+    /* area de tirar margem*/
+    margin: 0; /* area de tirar margem padrão*/
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    height: 100px;
+}
+header ul {
+    display: flex;
+    margin-left: 800px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header ul li {
+    margin-left: 30px;
+    margin-bottom: -10px;
+    list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover{
+    color: antiquewhite;
+}
+.logo{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.logo img{
+    border-radius: 1000px;
+    width: 100px;
+    height: 99px;
+    margin-left: 50px;
+}
+.logo h1{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: -45px;
+}
+/* section principal*/
+
+.bg-inicio{
+    width: 100%;
+    background-image: url("https://i.ytimg.com/vi/8xQs8tEAFz4/maxresdefault.jpg");
+    height: calc(100vh - 101px);
+    background-position: center;
+    background-size: cover;
+}
+.filtro{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: calc(100vh - 101px);
+    padding-top: 1px;
+}
+.tittle{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 400px;
+}
+.tittle h1 {
+    color: white;
+    font-size: 100px;
+}
+.tittle h2 {
+    color: white;
+   
+}
+button{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
+.button-inicio{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.info{
+    height: 600px;
+   
+}
+.title-info{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title-info h1{
+    font-size: 50px;
+}
+.title-info h3{
+    font-size: 30px;
+    color: grey;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.texto .paragrafo p{
+    width: 800px;
+    margin-right: 200px;
+}
+.info .botao{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-right: 1150px;
+
+}
+.img-info{
+   margin-right: 150px;
+}
+
+
+
+
+
