@@ -164,6 +164,7 @@ button:hover{
     height: 300px;
     padding-top: 1px;
     height: calc(60vh - 100px);
+    
 }
 .services .title{
     margin-top: -30px;
@@ -250,6 +251,7 @@ button:hover{
     width: inherit;
     height: inherit;
     display: flex;
+    
 
 }
 .photoinfo{
@@ -270,6 +272,66 @@ button:hover{
 .photoarea:hover .photoinfo{
     display: flex;
 }
+.bg-black .OurProjects{
+    height: 100px;
+    margin-top: 500px;
+}
 
+.quadrados{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
 
+}
+
+/* quadrado 1*/
+.quadrado-branco1{
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+
+}
+
+.img-kk img{
+    height: 200px;
+    border-radius: 900px;
+    
+}
+
+/* quadrado 2*/
+.quadrado-branco2{
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin: 100px;
+}
+
+.img-kk img{
+    height: 200px;
+    border-radius: 900px;
+    
+}
+
+/* quadrado 3*/
+.quadrado-branco3{
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+}
+
+.img-kk img{
+    height: 200px;
+    border-radius: 900px;
+    
+}
 
