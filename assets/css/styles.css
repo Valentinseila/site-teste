@@ -193,4 +193,83 @@ button:hover{
  
 }
 
+.outralista{
+    background-color: slategray;
+    border-radius: 30px;
+    width: 870px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.outralista ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: 25px;
+
+}
+.outralista ul li{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    list-style: none;
+}
+.outralista ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700px;
+    transition: color 0,3s;
+
+}
+.outralista ul li a:hover{
+    color: rgb(4, 86, 168);
+}
+.photos{
+    width: 100vw;
+    max-width: 800px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 500px;
+}
+.photo{
+    width: 200px;
+}
+.photoarea{
+    margin: 10px;
+    width: 200px;
+    height: 160px;
+}
+.photoarea img{
+    width: inherit;
+    height: inherit;
+    display: flex;
+
+}
+.photoinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.photoinfo h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.photoarea:hover .photoinfo{
+    display: flex;
+}
+
+
 
